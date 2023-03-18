@@ -1,0 +1,11 @@
+# Question_03
+n=input()
+n1=input()
+n3=list(n)
+n4=list(n1)
+s1=set(n3)
+s2=set(n4)
+print(s2)
+bk=s1.intersection(s2)
+b2="".join(bk)
+print(b2)
